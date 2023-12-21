@@ -1,0 +1,14 @@
+import java.awt.*;
+public class LabelDemo extends Frame{
+    private LayoutManager Layout;
+    private Label Label1;
+    private Label Label2;
+    private Label label3;
+
+    public LabelDemo(){
+        Layout = new GridLayout(7,1);
+        Label1 = new Label("A Simple Label");
+        label2 = new Label("A label with LEFT alignment",Label.LEFT)
+
+    }
+}
